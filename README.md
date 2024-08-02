@@ -42,6 +42,40 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
-## 🤔 Dúvidas?
 
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+O dataset escolhiodo foi **dataset-500-curso-sagemaker-canvas-dio.csv**
+## CONCLUSAO:
+
+To analyze the data and create visualizations, I'll load the dataset, inspect it, and generate some plots. Let's start by examining the data.
+
+The dataset contains 9,360 records and 6 columns:
+
+date: The date of the record.
+product_name: The name of the product.
+category: The category of the product.
+stock_quantity: The quantity of the product in stock.
+unit_price: The price per unit of the product.
+total_value: The total value of the product in stock.
+Some observations include:
+
+The date column's type is already in datetime format.
+The product_name and category columns are object types, indicating categorical data.
+The stock_quantity, unit_price, and total_value columns are numerical.
+Next, I'll create visualizations to help understand the data, such as:
+
+A time series of total stock value.
+A breakdown of stock value by product category.
+A comparison of stock quantity for the top products.
+Let's proceed with these visualizations. ​​
+
+Here are the visualizations based on the dataset:
+
+Total Stock Value Over Time:
+
+The total stock value fluctuates monthly, with notable peaks and troughs, indicating variability in stock value over time.
+Total Stock Value by Product Category:
+
+Categories with the highest total stock value are displayed, with some categories contributing more significantly than others to the total inventory value.
+Top 10 Products by Stock Quantity:
+
+The top 10 products with the highest stock quantity are shown, highlighting the most abundant items in the inventory.
